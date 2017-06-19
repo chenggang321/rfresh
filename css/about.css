@@ -1,0 +1,28 @@
+@charset "utf-8";
+#main {
+  min-height: 500px;
+}
+#main .tabs_box {
+  width: 100%;
+  background: #F1F1F1;
+  border-bottom: 1px solid #ddd;
+}
+#main .tabs_box .tabs {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #484848;
+}
+#main .tabs_box .tabs b {
+  padding-left: 30px;
+  background: url(../images/ioniclist_1.png) -33px -46px;
+}
+#main .content {
+  width: 970px;
+  margin: 78px auto 0;
+}
+#main .content .last {
+  margin: 44px 0 167px;
+}

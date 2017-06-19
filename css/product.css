@@ -1,0 +1,142 @@
+@charset "utf-8";
+#main {
+  min-height: 500px;
+}
+#main .tabs_box {
+  width: 100%;
+  background: #F1F1F1;
+  border-bottom: 1px solid #ddd;
+}
+#main .tabs_box .tabs {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #484848;
+}
+#main .tabs_box .tabs b {
+  padding-left: 30px;
+  background: url(../images/ioniclist_1.png) -33px -46px;
+}
+#main .content {
+  width: 1200px;
+  margin: 40px auto 30px;
+}
+#main .content .c_top {
+  margin-bottom: 90px;
+}
+#main .content .c_top ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+#main .content .c_top ul li a {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  font-size: 17px;
+  color: #454545;
+  line-height: 40px;
+  background: #ddd;
+}
+#main .content .c_top ul li b {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  vertical-align: middle;
+}
+#main .content .c_top ul li .left {
+  position: relative;
+  top: -4px;
+  left: 20px;
+}
+#main .content .c_top ul li .right {
+  position: relative;
+  top: -4px;
+  left: -20px;
+}
+#main .content .c_top .active b,
+#main .content .c_top .active a {
+  background: #F39700;
+  color: #fff;
+}
+#main .content .c_middle ul li {
+  box-sizing: border-box;
+  width: 300px;
+  height: 370px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-bottom: 38px;
+  margin-left: 23px;
+}
+#main .content .c_middle ul li a {
+  display: block;
+  width: 285px;
+  height: 290px;
+  margin: 1px 2px;
+}
+#main .content .c_middle ul li a img {
+  border-width: 0;
+  border-style: 0;
+}
+#main .content .c_middle ul div {
+  height: 77px;
+  border-top: 1px solid #ccc;
+}
+#main .content .c_middle ul div ul ol {
+  padding-left: 0;
+  width: 50%;
+  line-height: 25px;
+  float: left;
+  margin: 18px 0 12px;
+}
+#main .content .c_middle ul div ul ol p {
+  font-size: 14px;
+  color: #444444;
+  padding-left: 10px;
+}
+#main .content .c_middle ul div ul ol span {
+  font-size: 12px;
+  color: #C0C0C0;
+  padding: 8px;
+}
+#main .content .c_middle ul div ul ol a {
+  display: inline-block;
+  width: 95px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  background: #6ECAE5 ;
+  border-radius: 3px;
+  text-align: center;
+  float: right;
+  margin: 5px 10px;
+}
+#main .content .pageNum {
+  width: 280px;
+  margin: 0 auto;
+}
+#main .content .pageNum ul li {
+  float: left;
+}
+#main .content .pageNum ul li a {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 0 4px;
+  padding: 1px 5px;
+}
+#main .content .pageNum ul li a:hover {
+  background: #F8B552;
+  color: #fff;
+  border: 0;
+  padding: 2px 6px;
+}
+#main .content .pageNum ul .active a {
+  background: #F8B552;
+  color: #fff;
+  border: 0;
+}

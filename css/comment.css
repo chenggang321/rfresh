@@ -1,0 +1,247 @@
+@charset "utf-8";
+/*通用*/
+body {
+  font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  list-style: none;
+}
+input {
+  border: none;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.of:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.table:before {
+  display: table;
+  content: "";
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+/*整体布局*/
+#top,
+#nav,
+#banner,
+#main,
+#footer {
+  width: 100%;
+}
+#top {
+  width: 100%;
+  height: 90px;
+}
+#top .header_top {
+  width: 1200px;
+  margin: 0 auto;
+}
+#top .header_top ul {
+  float: right;
+  height: 25px;
+  line-height: 25px;
+}
+#top .header_top ul b {
+  display: inline-block;
+  border-left: 1px solid #666;
+  margin: 0 5px;
+  height: 10px;
+}
+#top .header_top ul li {
+  float: left;
+  margin: 0 3px;
+}
+#top .header_top ul li a {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+}
+#top .header_top ul li a.phone {
+  padding-left: 20px;
+  background: url(../images/ioniclist_1.png) -33px -5px;
+}
+#top .header_top ul li a.weixing {
+  padding-left: 26px;
+  background: url(../images/ioniclist_1.png) -1px -5px;
+}
+#top .header_top ul li a.weibo {
+  padding-left: 26px;
+  background: url(../images/ioniclist_1.png) -1px -34px;
+}
+#top .header_top ul li a.user_login {
+  width: 44px;
+  height: 23px;
+  line-height: 23px;
+  background: #72B137;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#top .header_top ul li a.load {
+  color: #FFAD36;
+}
+#top .search_box {
+  width: 1200px;
+  margin: 0 auto;
+}
+#top .search_box a.logo {
+  display: inline-block;
+  width: 238px;
+  height: 55px;
+  background: url(../images/index/index_03.png);
+}
+#top .search_box .search {
+  float: right;
+  width: 260px;
+  height: 26px;
+  margin-top: 22px;
+  border: 1px solid #ccc;
+}
+#top .search_box .search input {
+  box-sizing: border-box;
+  width: 225px;
+  height: 24px;
+  border: 0;
+  padding-left: 10px;
+  outline: 0;
+}
+#top .search_box .search a {
+  float: right;
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  border-left: 1px solid #ccc;
+  background: url(../images/ioniclist_1.png) -28px -25px;
+}
+#nav {
+  width: 100%;
+  background: #002E69;
+  margin-top: 17px;
+}
+#nav .content {
+  width: 1200px;
+  margin: 0 auto;
+}
+#nav .content ul {
+  height: 40px;
+  line-height: 40px;
+}
+#nav .content ul li {
+  height: 40px;
+  float: left;
+}
+#nav .content ul li :hover {
+  background: #F39700;
+}
+#nav .content ul li a {
+  display: inline-block;
+  width: 128px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+#nav .content ul li a b.home {
+  padding-left: 25px;
+  background: url(../images/ioniclist_1.png) -61px -28px;
+}
+#nav .content ul li a b.san {
+  padding-left: 20px;
+  background: url(../images/ioniclist_1.png) 0px -65px;
+}
+#nav .content ul li a.action {
+  background-color: #F39700;
+}
+#nav .content ul li a.productlist {
+  background: #F39700;
+}
+#nav .content ul .shopping_cart {
+  background: #2080BD;
+}
+#nav .content ul .shopping_cart b {
+  padding-left: 34px;
+  background: url(../images/ioniclist_1.png) -60px -5px;
+}
+#nav .content ul .shopping_cart i {
+  display: inline-block;
+  margin-left: 5px;
+  border: 4px solid transparent;
+  border-top-color: #fff;
+}
+#nav .content ul .last {
+  float: right;
+}
+#main {
+  min-height: 300px;
+}
+#footer {
+  height: 200px;
+  margin-top: 65px;
+  padding-top: 18px;
+  border-top: 1px solid #ddd;
+  background: #F1F1F1;
+}
+#footer .footer_content {
+  width: 1200px;
+  margin: 0 auto;
+}
+#footer .footer_content .left > li {
+  width: 147px;
+  line-height: 20px;
+  float: left;
+}
+#footer .footer_content .left > li h3 {
+  margin-bottom: 10px;
+}
+#footer .footer_content .left .last {
+  float: right;
+}
+#footer .footer_content .left .last ul li {
+  margin: 10px 0;
+}
+#footer .footer_content .left .last ul li a {
+  display: inline-block;
+  width: 120px;
+  height: 22px;
+  background: #003579;
+  color: #fff;
+  text-align: center;
+}
+#footer .bottom {
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}

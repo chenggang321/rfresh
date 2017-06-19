@@ -1,0 +1,60 @@
+@charset "utf-8";
+#main {
+  min-height: 500px;
+}
+#main .tabs_box {
+  width: 100%;
+  background: #F1F1F1;
+  border-bottom: 1px solid #ddd;
+}
+#main .tabs_box .tabs {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #484848;
+}
+#main .tabs_box .tabs b {
+  padding-left: 30px;
+  background: url(../images/ioniclist_1.png) -33px -46px;
+}
+#main .newsList {
+  width: 970px;
+  margin: 22px auto 100px;
+}
+#main .newsList .pageContent {
+  margin-bottom: 35px;
+}
+#main .newsList .pageContent li {
+  height: 28px;
+  line-height: 29px;
+  border-bottom: 1px dotted #ddd;
+}
+#main .newsList .pageContent li span {
+  float: right;
+}
+#main .newsList .pageContent li a b {
+  display: inline-block;
+  border: 3px solid transparent;
+  border-left-color: #07BFD1;
+}
+#main .newsList .pageNum {
+  width: 280px;
+  margin: 0 auto;
+}
+#main .newsList .pageNum ul li {
+  float: left;
+}
+#main .newsList .pageNum ul li a {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 0 4px;
+  padding: 1px 5px;
+}
+#main .newsList .pageNum ul li a:hover {
+  background: #F8B552;
+  color: #fff;
+  border: 0;
+  padding: 2px 6px;
+}

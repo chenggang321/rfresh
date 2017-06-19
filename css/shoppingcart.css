@@ -1,0 +1,127 @@
+@charset "utf-8";
+#main .tabs_box {
+  width: 100%;
+  background: #F1F1F1;
+  border-bottom: 1px solid #ddd;
+}
+#main .tabs_box .tabs {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #484848;
+}
+#main .tabs_box .tabs b {
+  padding-left: 30px;
+  background: url(../images/ioniclist_1.png) -33px -46px;
+}
+#main .shoppingList {
+  width: 1200px;
+  margin: 0 auto;
+}
+#main .shoppingList table {
+  width: 100%;
+  margin: 80px auto 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+#main .shoppingList table td,
+#main .shoppingList table th {
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #3E3E3E;
+}
+#main .shoppingList table td img,
+#main .shoppingList table th img {
+  width: 99px;
+  height: 99px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  margin: 20px;
+  position: relative;
+  left: -20px;
+}
+#main .shoppingList table th {
+  height: 35px;
+  background: #EEEEEE;
+}
+#main .shoppingList table .changeNum {
+  padding-left: 20px;
+}
+#main .shoppingList table .changeNum button {
+  width: 20px;
+  height: 22px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  background: #E8E8E8;
+  color: #999999;
+}
+#main .shoppingList table .changeNum input {
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 0;
+  outline: 0;
+}
+#main .shoppingList table .t_red {
+  color: red;
+}
+#main .shoppingList table .t_delete a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  color: #CCCCCC;
+}
+#main .shoppingList table .chkAll {
+  width: 80px;
+}
+#main .shoppingList table .chkAll input {
+  vertical-align: middle;
+}
+#main .shoppingList table .p_detail {
+  width: 400px;
+}
+#main .shoppingList table .P_price {
+  width: 90px;
+}
+#main .shoppingList table .p_num {
+  width: 100px;
+}
+#main .shoppingList table .p_sum {
+  width: 90px;
+}
+#main .shoppingList table .p_delete {
+  width: 125px;
+}
+#main .payMoney {
+  width: 1200px;
+  margin: 0 auto;
+}
+#main .payMoney #c_All {
+  vertical-align: middle;
+}
+#main .payMoney span {
+  color: #FF6636;
+}
+#main .payMoney .allMoney {
+  font-weight: bold;
+  font-size: 18px;
+}
+#main .payMoney a {
+  display: inline-block;
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 3px;
+  background: #FF6636;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 10px;
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+#main {
+  padding: 65px 0 0;
+}
+#main .content {
+  width: 800px;
+  margin: 0 auto;
+}
+#main .content h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #FFAE37;
+  font-weight: normal;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+#main .content form {
+  width: 565px;
+  margin: 35px auto 45px;
+}
+#main .content form ul li {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+#main .content form ul li span {
+  display: inline-block;
+  width: 85px;
+  text-align: right;
+  font-size: 16px;
+  color: #7A7A7A;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+#main .content form ul li input {
+  box-sizing: border-box;
+  width: 320px;
+  height: 35px;
+  outline: 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #aaa;
+  padding-left: 10px;
+}
+#main .content form ul li .arg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+#main .content form ul li #btn {
+  background: #72B137;
+  color: #fff;
+  font: 18px "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+#main .content form ul li label {
+  color: #666666;
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+  left: 5px;
+}
+#main .content form ul li b {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  background: url(../images/ioniclist_1.png);
+}
+#main .content form ul li .check {
+  background-position: 8px -111px;
+}
+#main .content form ul li .shut_down {
+  display: inline-block;
+  color: #FF0707;
+}
+#main .content form ul li .shut_down b {
+  background-position: -25px -111px;
+}
+#main .content form .last input {
+  width: 157px;
+}
+#main .content form .last .y_text {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  line-height: 34px;
+  background: #999999;
+  vertical-align: middle;
+  margin-left: 20px;
+  position: relative;
+  top: -1px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 16px;
+  font-style: italic;
+}
+#main .content form .last .upData {
+  background-position: -60px -85px;
+  margin-left: 15px;
+}
+#footer {
+  margin: 0 auto;
+}

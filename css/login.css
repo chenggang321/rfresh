@@ -1,0 +1,78 @@
+@charset "utf-8";
+#main {
+  height: 500px;
+  background: url(../images/login_bg.jpg);
+  background-size: 100% 500px ;
+}
+#main .content {
+  width: 1200px;
+  margin: 0 auto;
+}
+#main .content .login_box {
+  box-sizing: border-box;
+  width: 400px;
+  height: 380px;
+  margin-top: 60px;
+  padding: 0 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+#main .content .login_box .tabs {
+  height: 54px;
+  line-height: 54px;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: 1px solid #BEC1CB;
+}
+#main .content .login_box form {
+  margin: 30px 0;
+  font-size: 15px;
+}
+#main .content .login_box form div {
+  width: 360px;
+  height: 35px;
+  border: 1px solid #B9BDC6;
+  border-radius: 3px;
+  background: #fff;
+  margin: 10px 0 20px;
+}
+#main .content .login_box form div b {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-right: 1px solid #b9bdc6;
+  vertical-align: middle;
+}
+#main .content .login_box form div input {
+  width: 316px;
+  height: 32px;
+  outline: 0;
+}
+#main .content .login_box form .user b {
+  background: url(../images/ioniclist_1.png) -25px -84px;
+}
+#main .content .login_box form .pwd b {
+  background: url(../images/ioniclist_1.png) 7px -83px;
+}
+#main .content .login_box form #login-check {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+#main .content .login_box form .text {
+  font-size: 13px;
+}
+#main .content .login_box button {
+  width: 100%;
+  height: 38px;
+  background: #73B137;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  color: #fff;
+  font: 17px "microsoft yahei", Arial, Helvetica, sans-serif;
+  letter-spacing: 10px;
+}
+#footer {
+  margin-top: 0;
+}
